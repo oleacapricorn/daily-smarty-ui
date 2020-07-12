@@ -4,7 +4,6 @@ import SearchBar from './search-bar';
 import RecentPosts from './recent-posts';
 
 
-
 export default class Home extends Component {
   render() {
     return (

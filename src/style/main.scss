@@ -11,9 +11,8 @@ body {
     width: 66vw;
 
     display: grid;
-    align-content: space-between;
-    justify-items: center;
-    // grid-template-rows: 1fr 2fr 1fr;
+    align-content: space-around;
+    justify-items: stretch;
 
 }
 
@@ -21,7 +20,16 @@ body {
     margin: 0 4px;
 }
 
+.logo-main,
+.recent-posts {
+    display: grid;
+    justify-items: center;
+}
+
 $color-gray-one: #666666;
 $color-gray-two:#b3b3b3;
+$color-blue-one:#0079FF;
 
-@import "./searchBar"
+
+@import "./searchBar";
+@import "./recentPosts"
